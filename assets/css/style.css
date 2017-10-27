@@ -1,7 +1,13 @@
 #wrapper {
+	min-height: 100%;
+	margin-bottom: -145px;
 	margin: auto;
 	width: 960px;
 	overflow: auto;
+}
+#wrapper:after {
+	content: "";
+	display: block;
 }
 body {
 	background-color: #ffffff;
@@ -123,6 +129,7 @@ p {
 .connect {
 	padding: 15px;
 	margin: 10px;
+	border-bottom-width: 2px;
 	border-bottom: solid;
 	border-bottom-color: #777777;
 	font-family: 'Georgia', Times, Times New Roman, serif;
